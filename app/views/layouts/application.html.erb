@@ -36,18 +36,38 @@
             </div>
         </div>
 
-        <div  id ="navbarExample" class="navbar-menu">
-        <div class="navbar-end">
-        <div class="field is-grouped">
+        <div id="navbarExample" class="navbar-menu">
+          <div class="navbar-end">
+            <div class="navbar-item">
+               <div class="field is-grouped">
         <p class="control">
-        <%= link_to 'New Tweeet', new_tweeet_path, calss: "button is-info in-inverted" %>
-        </p>
-        
-        </div>
-        </div>
-        </div>
-    </nav>
-    <%= yield %>
-</body>
+        <%= link_to 'New Tweeet', root_path, class: "button is-info is-inverted" %>
 
+        </p>
+          
+            <% if user_signed_in? %>
+              <p class="control">
+                <%= link_to current_user.name, edit_user_registration_path, class: "button is-info" %>
+              </p>
+
+              <p>
+                <%= link_to "Logout", destroy_user_session_path, method: :delete, class:"button is-info" %>
+              </p>
+
+            <% else %>
+            <p class="control">
+              <%= link_to 'Sign In', new_user_session_path, class: "button is-info" %>
+            </p>
+						<p class="control">
+              <%= link_to 'Sign Up', new_user_registration_path, class: "button is-info" %>
+            </p>
+            <% end %>
+            </div>
+					</div>
+				</div>
+			</div>
+  	</nav>
+
+    <%= yield %>
+  </body>
 </html>
