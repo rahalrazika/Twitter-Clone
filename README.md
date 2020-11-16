@@ -1,24 +1,32 @@
-# README
+# Twitter Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the sample application for [Ruby on Rails Tutorial: Build A Twitter Clone](https://www.youtube.com/watch?v=5gUysPm64a4&list=PL01nNIgQ4uxNkDZNMON-TrzDVNIk3cOz4&index=4)by [Andy Leverenz](https://web-crunch.xn--com-qs13b86l/)
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby (Version - 2.7.0)
+- Ruby on Rails 5.2.4.3
 
-* Database creation
 
-* Database initialization
+## Authors
 
-* How to run the test suite
+👤 **Razika Rahal**
 
-* Services (job queues, cache servers, search engines, etc.)
+- Github: [@rahalrazika](https://github.com/rahalrazika)
+- Linkedin : [Razika Rahal](https://www.linkedin.com/in/razika-rahal-85539bbb/)
+- Twitter: [@RereRere055](https://twitter.com/RereRere055)
 
-* Deployment instructions
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Youtube 
